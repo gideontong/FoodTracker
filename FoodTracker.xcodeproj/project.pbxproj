@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3BF963D1FC22287004EC773 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BF963C1FC22287004EC773 /* RatingControl.swift */; };
 		F3D91B171FB8193100E54CDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D91B161FB8193100E54CDD /* AppDelegate.swift */; };
 		F3D91B191FB8193100E54CDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D91B181FB8193100E54CDD /* ViewController.swift */; };
 		F3D91B1C1FB8193100E54CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D91B1A1FB8193100E54CDD /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F3BF963C1FC22287004EC773 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		F3D91B131FB8193100E54CDD /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D91B161FB8193100E54CDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3D91B181FB8193100E54CDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				F3D91B161FB8193100E54CDD /* AppDelegate.swift */,
 				F3D91B181FB8193100E54CDD /* ViewController.swift */,
+				F3BF963C1FC22287004EC773 /* RatingControl.swift */,
 				F3D91B1A1FB8193100E54CDD /* Main.storyboard */,
 				F3D91B1D1FB8193100E54CDD /* Assets.xcassets */,
 				F3D91B1F1FB8193100E54CDD /* LaunchScreen.storyboard */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3D91B191FB8193100E54CDD /* ViewController.swift in Sources */,
+				F3BF963D1FC22287004EC773 /* RatingControl.swift in Sources */,
 				F3D91B171FB8193100E54CDD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,7 +358,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TR9S34EQF7;
 				INFOPLIST_FILE = FoodTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SplimTech.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -368,7 +374,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TR9S34EQF7;
 				INFOPLIST_FILE = FoodTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SplimTech.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";

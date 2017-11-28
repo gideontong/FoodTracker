@@ -47,7 +47,6 @@
                                     <outlet property="nameLabel" destination="Y3C-1d-Ell" id="Lif-V7-ZC9"/>
                                     <outlet property="photoImageView" destination="hQ5-IZ-gu2" id="K0U-lD-mxC"/>
                                     <outlet property="ratingControl" destination="ZbX-R3-tbG" id="Kux-U1-K9u"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ShowDetail" id="wDh-NC-0W3"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -55,7 +54,7 @@
                     <navigationItem key="navigationItem" title="Your Meals" id="ih7-aO-2Me">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="xuU-vd-CyW">
                             <connections>
-                                <segue destination="iE3-OD-WLH" kind="presentation" identifier="AddItem" id="KDk-ZC-Csg"/>
+                                <segue destination="iE3-OD-WLH" kind="presentation" id="u46-9U-QoR"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -167,18 +166,15 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="fAD-8I-TRL"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Eec-bz-SCs"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TIx-Tz-Z1Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="447" y="510"/>
+            <point key="canvasLocation" x="393" y="134"/>
         </scene>
     </scenes>
     <resources>
         <image name="defaultPhoto" width="540" height="540"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="wDh-NC-0W3"/>
-    </inferredMetricsTieBreakers>
 </document>

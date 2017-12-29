@@ -120,6 +120,9 @@ class MealTableViewController: UITableViewController {
             
             let selectedMeal = meals[indexPath.row]
             mealDetailViewController.meal = selectedMeal
+            
+        default:
+            fatalError("Unexpected segue identifier: \(segue.identifier)")
         }
     }
     

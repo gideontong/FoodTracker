@@ -122,7 +122,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="cancel" destination="1FS-XU-DNd" id="OPE-4p-y7A"/>
-                        <outlet property="nameTextField" destination="Buw-Jk-H9t" id="Ck3-6O-fuB"/>
+                        <outlet property="nameTextField" destination="Buw-Jk-H9t" id="pSs-vm-q39"/>
                         <outlet property="photoImageView" destination="aqv-hc-vlw" id="2XO-Ia-hUn"/>
                         <outlet property="ratingControl" destination="I85-ly-qZd" id="YNf-Pf-AEH"/>
                         <outlet property="saveButton" destination="ABg-fd-M2q" id="rs7-Ub-biA"/>
